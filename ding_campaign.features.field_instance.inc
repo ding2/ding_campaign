@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ding_campaign_ctype.features.field_instance.inc
+ * ding_campaign.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function ding_campaign_ctype_field_default_field_instances() {
+function ding_campaign_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-ding_campaign-ding_campaign_group_ref'
