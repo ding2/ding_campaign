@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * ding_campaign_ctype.features.field_base.inc
+ * ding_campaign.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function ding_campaign_ctype_field_default_field_bases() {
+function ding_campaign_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'ding_campaign_group_ref'
